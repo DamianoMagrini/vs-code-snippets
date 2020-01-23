@@ -3,7 +3,7 @@
 > Thank you for your time and interest!
 
 ## Guidelines
-Because I would like to avoid an unnecessarily verbose CONTRIBUTION.md file, I'll rather sum it up in a few points below. In no particular order,
+Because I would like to avoid an unnecessarily verbose CONTRIBUTING.md file, I'll rather sum it up in a few points below. In no particular order,
 - **don't insult or harass** others in any way, no matter how similar or different they are to you;
 - PRs must **use gitmoji** (I'd recommend your commits do as well, but it's not required);
 - to upload a new snippet, you can just **create a PR**;
