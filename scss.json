@@ -1,0 +1,16 @@
+{
+  "@font-face": {
+    "prefix": "@font",
+    "body": [
+      "@font-face {",
+      "\tfont-family: \"$1\";",
+      "\tsrc: url(\"$2.woff2\") format(woff2),",
+      "\t\turl(\"$2.woff\") format(woff);",
+      "\tfont-weight: \"${3|100,200,300,400,500,600,700,800,900,normal,bold|}\";",
+      "\tfont-style: \"${4|normal,italic|}\";",
+      "}",
+      "$0"
+    ],
+    "description": "Generates a @font-face rule with woff and woff2 sources."
+  }
+}

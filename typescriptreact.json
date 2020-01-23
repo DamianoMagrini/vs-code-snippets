@@ -1,0 +1,52 @@
+{
+  "Preact functional component": {
+    "prefix": "pfc",
+    "body": [
+      "import { FC, h } from 'preact';",
+      "",
+      "interface ${1:Component}Props {",
+      "\t",
+      "}",
+      "",
+      "export const $1:FC<$1Props> = (props) => {",
+      "\treturn <div>$0</div>;",
+      "};"
+    ],
+    "description": "Generates a functional component for use in Preact."
+  },
+  "React DOM functional component": {
+    "prefix": "rdfc",
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "interface ${1:Component}Props {",
+      "\t",
+      "}",
+      "",
+      "export const $1:FC<$1Props> = (props) => {",
+      "\treturn <div>$0</div>;",
+      "};"
+    ],
+    "description": "Generates a functional component for use in React DOM."
+  },
+  "React Native functional component": {
+    "prefix": "rnfc",
+    "body": [
+      "import React, { FC } from 'react';",
+      "import { StyleSheet, View } from 'react-native';",
+      "",
+      "interface ${1:Component}Props {",
+      "\t",
+      "}",
+      "",
+      "const $1Styles = StyleSheet.create({",
+      "\t",
+      "});",
+      "",
+      "export const $1:FC<$1Props> = (props) => {",
+      "\treturn <View>$0</View>;",
+      "};"
+    ],
+    "description": "Generates a functional component for use in React Native."
+  }
+}
