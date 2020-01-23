@@ -1,0 +1,7 @@
+# Editor configuration, see http://editorconfig.org
+# Please don't edit :)
+
+root = true
+
+[*]
+insert_final_newline = true
